@@ -1,0 +1,231 @@
+{
+  "project": "NodalTools",
+  "version": "4.2",
+  "nodes": [
+    {
+      "type": "NodalToolsV4.VariableNode`1[System.Int32]",
+      "id": 0,
+      "position": {
+        "x": 92.0,
+        "y": 317.0
+      },
+      "variableName": "VariableName",
+      "variable": 5
+    },
+    {
+      "type": "NodalToolsV4.AdditionNode`1[System.Int32]",
+      "id": 1,
+      "position": {
+        "x": 371.0,
+        "y": 185.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 2,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.VariableNode`1[System.Int32]",
+      "id": 2,
+      "position": {
+        "x": 89.0,
+        "y": 510.0
+      },
+      "variableName": "VariableName",
+      "variable": 5
+    },
+    {
+      "type": "NodalToolsV4.SubstractionNode`1[System.Int32]",
+      "id": 3,
+      "position": {
+        "x": 726.0,
+        "y": 282.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 2,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.MultiplicationNode`1[System.Int32]",
+      "id": 4,
+      "position": {
+        "x": 1018.0,
+        "y": 403.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 2,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.DivisionNode`1[System.Int32]",
+      "id": 5,
+      "position": {
+        "x": 1311.0,
+        "y": 519.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 2,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.DebugLogNode",
+      "id": 6,
+      "position": {
+        "x": 736.0,
+        "y": 153.0
+      },
+      "variable": "",
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 7,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 1,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.EventNode",
+      "id": 7,
+      "position": {
+        "x": 365.0,
+        "y": 88.0
+      },
+      "inputs": []
+    },
+    {
+      "type": "NodalToolsV4.DebugLogNode",
+      "id": 8,
+      "position": {
+        "x": 1031.0,
+        "y": 265.0
+      },
+      "variable": "",
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 6,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 3,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.DebugLogNode",
+      "id": 9,
+      "position": {
+        "x": 1299.0,
+        "y": 380.0
+      },
+      "variable": "",
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 8,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 4,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "NodalToolsV4.DebugLogNode",
+      "id": 10,
+      "position": {
+        "x": 1599.0,
+        "y": 498.0
+      },
+      "variable": "",
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 9,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 5,
+            "index": 0
+          }
+        }
+      ]
+    }
+  ]
+}

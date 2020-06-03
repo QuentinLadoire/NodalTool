@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "type": "IntNode",
+      "id": 0,
+      "position": {
+        "x": -92.0,
+        "y": 344.0
+      },
+      "variableName": "VariableName",
+      "variable": 5
+    },
+    {
+      "type": "AdditionIntNode",
+      "id": 1,
+      "position": {
+        "x": 471.0,
+        "y": 263.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 3,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "SubstractionIntNode",
+      "id": 2,
+      "position": {
+        "x": 726.0,
+        "y": 351.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 1,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 4,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "IntNode",
+      "id": 3,
+      "position": {
+        "x": 219.0,
+        "y": 341.0
+      },
+      "variableName": "VariableName",
+      "variable": 10
+    },
+    {
+      "type": "MultiplicationIntNode",
+      "id": 4,
+      "position": {
+        "x": 461.0,
+        "y": 453.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 3,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 0,
+            "index": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "DivisionIntNode",
+      "id": 5,
+      "position": {
+        "x": 986.0,
+        "y": 435.0
+      },
+      "inputs": [
+        {
+          "index": 0,
+          "output": {
+            "idNode": 4,
+            "index": 0
+          }
+        },
+        {
+          "index": 1,
+          "output": {
+            "idNode": 3,
+            "index": 0
+          }
+        }
+      ]
+    }
+  ]
+}
